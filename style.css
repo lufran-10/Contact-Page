@@ -31,20 +31,20 @@ h2 {
 
 h1 {
   font-size: 4rem;
-  width: 44%;
+  width: 60%;
   margin: 0 auto;
 }
 
 h2 {
   font-size: 2rem;
   width: 49%;
-  margin: 3% auto 5%;
+  margin: 3% auto 7%;
 }
 
 form {
   background-color: hsla(210, 40%, 98%, 0.3);
   width: 63%;
-  margin: 0 auto 7%;
+  margin: 0 auto 10%;
   border-radius: 15px;
   padding: 2%;
   display: flex;
@@ -110,4 +110,44 @@ button:hover {
 
 button:active {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+@media screen and (max-width: 1025px) {
+  img {
+    width: 10%;
+    margin: 2% 85% 5% 4%;
+  }
+
+  h1 {
+    width: 77%;
+  }
+
+  h2 {
+    width: 75%;
+  }
+
+  form {
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  img {
+    width: 16%;
+    margin: 2% 80% 5% 4%;
+  }
+
+  h1 {
+    width: 70%;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    width: 65%;
+    font-size: 1.2rem;
+  }
+
+  form {
+    padding-bottom: 12%;
+  }
 }
